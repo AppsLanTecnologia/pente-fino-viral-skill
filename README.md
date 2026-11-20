@@ -26,9 +26,13 @@ Não sabe instalar? Abra o Claude Code e peça: *"instale o ffmpeg, o yt-dlp e o
 
 ## Usar
 
-No Claude Code, cole o link:
+**Os prompts prontos estão em [PROMPTS.md](PROMPTS.md):** instalar, fazer o pente fino com as informações certas do seu vídeo, pedir ajustes e resolver problemas.
+
+O jeito mais curto, no Claude Code:
 
 > faz o pente fino desse vídeo e modela pra um vídeo meu sobre [assunto]: https://www.instagram.com/reel/...
+
+Quanto mais você contar sobre o seu vídeo (assunto, público, formato, objetivo, duração e chamada final), melhor o roteiro. O prompt principal do PROMPTS.md já pede tudo isso.
 
 A análise fica em `analises/AAAA-MM-DD-<id>/`: vídeo, quadros, folhas de contato, transcrição, `dados.json`, `resumo.md` e a entrega final `analise.md`.
 
